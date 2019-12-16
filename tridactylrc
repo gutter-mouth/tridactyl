@@ -37,7 +37,6 @@ bind k scrollline -5
 bind J tabnext
 bind K tabprev
 
-
 " bind <C-[> as <Escape>
 bind --mode=normal <C-[> composite mode normal; hidecmdline
 bind --mode=insert <C-[> composite unfocus | mode normal
@@ -50,8 +49,8 @@ bind --mode=normal gnm tabopen https://mail.google.com/mail/
 bind --mode=normal gog open https://github.com/jseb93
 bind --mode=normal gng tabopen https://github.com/jseb93
 
-
-
-
 unbind zz
 bind --mode=normal zz source --url https://raw.githubusercontent.com/jseb93/tridactyl/master/tridactylrc
+
+"" gui set
+guiset_quiet tabs autohide
