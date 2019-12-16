@@ -27,10 +27,11 @@ set findcase sensitive
 
 " Smooth scrolling, yes please. This is still a bit janky in Tridactyl.
 set smoothscroll true
+allowautofocus
 
 " The default jump of 10 is a bit much.
-bind j scrollline 3
-bind k scrollline -3
+bind j scrollline 5
+bind k scrollline -5
 
 bind J tabnext
 bind K tabprev
@@ -45,6 +46,10 @@ bind --mode=ex <C-[> ex.hide_and_clear
 " qmark?
 bind --mode=normal gom open https://mail.google.com/mail/
 bind --mode=normal gnm tabopen https://mail.google.com/mail/
+bind --mode=normal gog open https://github.com/jseb93
+bind --mode=normal gng tabopen https://github.com/jseb93
+
+
 
 
 unbind zz
