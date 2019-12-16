@@ -48,4 +48,4 @@ bind --mode=normal gnm open https://mail.google.com/mail/
 
 
 unbind zz
-bind --mode=normal zz source --url https://gist.github.com/jseb93/bce6a9cf73159f67332154ba17324e7a
+bind --mode=normal zz source https://raw.githubusercontent.com/tridactyl/tridactyl/master/.tridactylrc
