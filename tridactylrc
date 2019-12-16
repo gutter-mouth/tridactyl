@@ -27,7 +27,8 @@ set findcase sensitive
 
 " Smooth scrolling, yes please. This is still a bit janky in Tridactyl.
 set smoothscroll true
-allowautofocus
+set scrollduration 300
+set allowautofocus false
 
 " The default jump of 10 is a bit much.
 bind j scrollline 5
