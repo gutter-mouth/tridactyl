@@ -44,7 +44,7 @@ bind --mode=ex <C-[> ex.hide_and_clear
 
 " qmark?
 bind --mode=normal gom open https://mail.google.com/mail/
-bind --mode=normal gnm open https://mail.google.com/mail/
+bind --mode=normal gnm tabopen https://mail.google.com/mail/
 
 
 unbind zz
