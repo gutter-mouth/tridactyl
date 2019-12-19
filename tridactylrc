@@ -1,4 +1,5 @@
 " vim: filetype=vim
+" :source --url https://raw.githubusercontent.com/jseb93/tridactyl/master/tridactylrc
 
 " This wipes all existing settings. This means that if a setting in this file
 " is removed, then it will return to default. In other words, this file serves
@@ -31,8 +32,8 @@ set scrollduration 300
 set allowautofocus false
 
 " The default jump of 10 is a bit much.
-bind j scrollline 5
-bind k scrollline -5
+bind j scrollline 10
+bind k scrollline -10
 
 bind J tabnext
 bind K tabprev
