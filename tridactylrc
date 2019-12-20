@@ -37,8 +37,8 @@ bind k scrollline -10
 
 bind J tabnext
 bind K tabprev
-bind <C-j> --mode=normal tabmove +1
-bind <C-k> --mode=normal tabmove -1
+bind --mode=normal <C-j> tabmove +1
+bind --mode=normal <C-k> tabmove -1
 
 " bind <C-[> as <Escape>
 bind --mode=normal <C-[> composite mode normal; hidecmdline
