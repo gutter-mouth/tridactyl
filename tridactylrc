@@ -48,6 +48,7 @@ bind --mode=ex <C-[> ex.hide_and_clear
 quickmark m https://mail.google.com/mail/
 quickmark c https://calendar.google.com/calendar/
 quickmark g https://github.com/jseb93
+quickmark p https://app.getpocket.com/
 
 unbind zz
 bind --mode=normal zz source --url https://raw.githubusercontent.com/jseb93/tridactyl/master/tridactylrc
