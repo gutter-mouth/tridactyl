@@ -56,4 +56,4 @@ unbind zz
 bind --mode=normal zz source --url https://raw.githubusercontent.com/jseb93/tridactyl/master/tridactylrc
 
 "" gui set
-guiset_quiet tabs autohide
+" guiset_quiet tabs autohide
