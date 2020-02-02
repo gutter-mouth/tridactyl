@@ -52,6 +52,10 @@ quickmark c https://calendar.google.com/calendar/
 quickmark g https://github.com/jseb93
 quickmark p https://app.getpocket.com/
 
+" blacklist
+blacklistadd localhost
+seturl localhost allowautofocus true
+
 unbind zz
 bind --mode=normal zz source --url https://raw.githubusercontent.com/jseb93/tridactyl/master/tridactylrc
 
