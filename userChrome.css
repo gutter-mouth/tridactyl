@@ -1,0 +1,32 @@
+/* Hide main toolbar contents EXCEPT Address bar */
+#nav-bar toolbarbutton, #search-container, 
+#stop-reload-button {
+  display: none !important;
+}
+#nav-bar {
+  min-height: 0px !important;
+}
+/* Hide Address bar when NOT focused (e.g., F6) */
+#urlbar:not([focused]), #urlbar:not([focused]) * {
+  min-height: 0 !important;
+  max-height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important; 
+  border: none !important;
+}
+
+#TabsToolbar {
+  display: none;
+}
+
+/* :root:not([customizing]) #navigator-toolbox:not(:hover):not(:focus-within) {
+  max-height: 1px;
+  min-height: calc(0px);
+  overflow: hidden;ZZZ
+} */
+
+/* Delete header of Tree Style Tab */
+#sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
+    display: none;
+}
+
