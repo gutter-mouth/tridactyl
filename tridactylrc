@@ -37,6 +37,8 @@ bind k scrollline -10
 
 bind J tabnext
 bind K tabprev
+bind D tabclosealltoright
+bind [C-D] tabclosealltoleft
 bind --mode=normal <C-j> tabmove +1
 bind --mode=normal <C-k> tabmove -1
 
