@@ -35,6 +35,8 @@ set allowautofocus false
 bind j scrollline 10
 bind k scrollline -10
 
+bind A tabfirst
+bind E tablast
 bind J tabnext
 bind K tabprev
 bind D tabclosealltoright
