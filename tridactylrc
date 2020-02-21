@@ -35,13 +35,15 @@ set allowautofocus false
 bind j scrollline 10
 bind k scrollline -10
 
+bind D tabclosealltoright
+bind <C-D> tabclosealltoleft
+bind <C-r> restart
 bind A tabfirst
 bind E tablast
 bind J tabnext
 bind K tabprev
-bind D tabclosealltoright
-bind <C-D> tabclosealltoleft
-bind <C-r> restart
+bind --mode=normal <C-a> tabmove ^
+bind --mode=normal <C-e> tabmove $
 bind --mode=normal <C-j> tabmove +1
 bind --mode=normal <C-k> tabmove -1
 
