@@ -42,10 +42,15 @@ bind A tabfirst
 bind E tablast
 bind J tabnext
 bind K tabprev
-bind --mode=normal <C-a> tabmove ^
-bind --mode=normal <C-e> tabmove $
-bind --mode=normal <C-j> tabmove +1
-bind --mode=normal <C-k> tabmove -1
+"bind --mode=normal <C-a> tabmove ^
+"bind --mode=normal <C-e> tabmove $
+"bind --mode=normal <C-j> tabmove +1
+"bind --mode=normal <C-k> tabmove -1
+bind <C-a> tabmove ^
+bind <C-e> tabmove $
+bind <C-j> tabmove +1
+bind <C-k> tabmove -1
+bind U fillcmdline undo
 
 " bind <C-[> as <Escape>
 bind --mode=normal <C-[> composite mode normal; hidecmdline
