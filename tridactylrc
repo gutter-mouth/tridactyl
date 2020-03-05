@@ -37,6 +37,7 @@ bind k scrollline -10
 
 bind D tabclosealltoright
 bind <C-D> tabclosealltoleft
+bind <C-d> tabdetach
 bind <C-r> restart
 bind A tabfirst
 bind E tablast
