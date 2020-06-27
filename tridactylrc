@@ -69,6 +69,7 @@ quickmark p https://app.getpocket.com/
 
 " blacklist
 blacklistadd localhost
+blacklistadd typing-tube.net
 seturl localhost allowautofocus true
 
 unbind zz
