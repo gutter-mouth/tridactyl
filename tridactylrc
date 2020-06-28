@@ -70,7 +70,7 @@ quickmark p https://app.getpocket.com/
 " blacklist
 blacklistadd localhost
 blacklistadd typing-tube.net
-blacklistadd amazon.co.jp/gp/video/
+" blacklistadd amazon.co.jp
 seturl localhost allowautofocus true
 
 unbind zz
