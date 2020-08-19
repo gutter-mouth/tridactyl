@@ -62,6 +62,9 @@ bind --mode=insert <C-[> composite unfocus | mode normal
 bind --mode=hint <C-[> hint.reset
 bind --mode=ex <C-[> ex.hide_and_clear
 
+" set hintchars (can be pressed by a left hand)
+set hintchars asdfgwertzxcvb
+
 " qmark?
 quickmark m https://mail.google.com/mail/
 quickmark c https://calendar.google.com/calendar/
