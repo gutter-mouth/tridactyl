@@ -53,6 +53,7 @@ bind <C-j> tabmove +1
 bind <C-k> tabmove -1
 bind B fillcmdline bmarks
 bind U fillcmdline undo
+bind F hint -qb
 "bind o fillcmdline open google
 "bind t fillcmdline tabopen google
 
