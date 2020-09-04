@@ -35,6 +35,10 @@ set allowautofocus false
 bind j scrollline 10
 bind k scrollline -10
 
+" add rakuten search engine and set as default search engine
+set searchurls.rakuten https://websearch.rakuten.co.jp/Web?qt=%s&col=OW
+set searchengine rakuten
+
 bind D tabclosealltoright
 bind <C-D> tabclosealltoleft
 bind <C-d> tabdetach
